@@ -20,7 +20,13 @@ body {
 }
 
 .stats-container {
-    display: flex;
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Aligns items vertically in the center */
+}
+
+.stats-container:hover {
+    cursor: pointer; /* Changes cursor to a pointer on hover */
+    box-shadow: 0 0 30px lightblue; /* Adds a glowing light blue shadow on hover */
 }
 
 .stats-card {
@@ -42,19 +48,21 @@ body {
     justify-content: space-around;
 }
 
-.game-img {
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #FFFFFF;
-}
-
 .game-card {
-    background-color: #FFFFFF;
-    padding: 1%;
-    margin: 1%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
     width: 300px;
     text-align: center;
-    border-radius: 7px;
+}
+
+.game-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
 .game-card:hover {
