@@ -18,7 +18,7 @@ The following optional features are implemented:
 
 Video Walkthrough
 
-Here's a walkthrough of implemented features: https://imgur.com/a/AHqSN7Z
+Here's a walkthrough of implemented features: https://imgur.com/a/dUEwcum
 
 GIF created with 
 
